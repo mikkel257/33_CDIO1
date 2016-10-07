@@ -3,6 +3,7 @@ package game;
 public class Game {
 	// turn = 0 for spiller 1 og turn = 1 for spiller 2.
 	public static int turn = 0;
+	//Er der nogen der har vundet?
 	public static boolean gameWon = false;
 
 	public static void main(String[] args) {

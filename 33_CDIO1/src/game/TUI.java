@@ -43,7 +43,7 @@ public class TUI {
 		{
 			System.out.println("The objective is to be the first player to gather 40 points and afterwards roll a pair, by rolling two dices");
 			System.out.println("The rules are as follows:");
-			System.out.println("- By rolling a pair gives an extra turn.");
+			System.out.println("- By rolling a pair of identical value, you recieve an extra turn.");
 			System.out.println("- By rolling a pair of ones, you lose all your points.");
 			System.out.println("- By rolling a pair of sixes twice in a row, you win the game.");
 			System.out.println();

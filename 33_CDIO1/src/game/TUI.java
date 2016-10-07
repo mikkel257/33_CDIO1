@@ -30,18 +30,18 @@ public class TUI {
 		// Indlæsning af Scanner.
 		//"help" kommando og output
 		if (command.equals("help")) {
-			System.out.println("'Roll' - Roll the dices in the dice cup.");
+			System.out.println("'Roll' - Roll the dice in the dice cup.");
 			System.out.println("'Score' - Show your current score.");
-			System.out.println("'Last' - Show your last dicethrow (combined value | Dice 1 | Dice 2)");
-			System.out.println("'Player' - Show whose turn it is");
-			System.out.println("'Rules' - Print a list of the game rules");
-			System.out.println("'Help' - Print a list of all available commands");
+			System.out.println("'Last' - Show your last dice throw (combined value | Dice 1 | Dice 2)");
+			System.out.println("'Player' - Show whose turn it is.");
+			System.out.println("'Rules' - Print a list of the game rules.");
+			System.out.println("'Help' - Print a list of all available commands.");
 			System.out.println();
 		}
 		//"rules" kommando og output
 		else if (command.equals("rules"))
 		{
-			System.out.println("The objective is to be the first player to gather 40 points in total and afterwards roll a pair, by rolling two dices");
+			System.out.println("The objective is to be the first player to gather 40 points and afterwards roll a pair, by rolling two dices");
 			System.out.println("The rules are as follows:");
 			System.out.println("- By rolling a pair gives an extra turn.");
 			System.out.println("- By rolling a pair of ones, you lose all your points.");

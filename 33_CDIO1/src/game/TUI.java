@@ -41,7 +41,7 @@ public class TUI {
 		//"rules" kommando og output
 		else if (command.equals("rules"))
 		{
-			System.out.println("The objective is to be the first player to gather 40 points and afterwards roll a pair, by rolling two dices");
+			System.out.println("The objective is to be the first player to gather 40 points and afterwards roll a pair, by rolling two dice.");
 			System.out.println("The rules are as follows:");
 			System.out.println("- By rolling a pair of identicals, you have recieved an extra turn.");
 			System.out.println("- By rolling a pair of ones, you have lost all your points.");

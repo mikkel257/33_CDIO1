@@ -43,9 +43,9 @@ public class TUI {
 		{
 			System.out.println("The objective is to be the first player to gather 40 points and afterwards roll a pair, by rolling two dices");
 			System.out.println("The rules are as follows:");
-			System.out.println("- By rolling a pair of identical value, you recieve an extra turn.");
-			System.out.println("- By rolling a pair of ones, you lose all your points.");
-			System.out.println("- By rolling a pair of sixes twice in a row, you win the game.");
+			System.out.println("- By rolling a pair of identicals, you have recieved an extra turn.");
+			System.out.println("- By rolling a pair of ones, you have lost all your points.");
+			System.out.println("- By rolling a pair of sixes twice in a row, you have won the game.");
 			System.out.println();
 		}
 		//"score" kommando og output
@@ -105,7 +105,7 @@ public class TUI {
 	 * @param turn
 	 */
 	public void printLosePoints(int turn) {
-		System.out.println("Player "+ ++turn+" rolled two ones and loses all his points.");
+		System.out.println("Player "+ ++turn+" rolled two ones and has lost all of her/his points.");
 		System.out.println();
 	}
 	/**
@@ -113,7 +113,7 @@ public class TUI {
 	 * @param turn
 	 */
 	public void printExtraTurn(int turn) {
-		System.out.println("Player "+ ++turn+" rolled a pair, and gets an extra turn.");
+		System.out.println("Player "+ ++turn+" rolled a pair, and recieves an extra turn.");
 		System.out.println();
 	}
 	/**
